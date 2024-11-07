@@ -19,5 +19,5 @@ def caesar_cipher(string, number)
   ciphered_arr.join("")
 end
 
-cipheredtext = caesar_cipher("ihsan, naber!", -3)
+cipheredtext = caesar_cipher("merhaba, dunya!", 6)
 puts cipheredtext
